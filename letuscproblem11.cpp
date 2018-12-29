@@ -1,5 +1,7 @@
 #include<stdio.h>
-
+/*a positive number is entered  through the keyboard. Write a function to obtain the prime factors of this number.
+for example prime factors of 24 are 2,2,2,3
+*/
 int main()
 {
 	int a;
