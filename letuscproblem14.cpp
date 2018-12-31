@@ -4,7 +4,7 @@
 int main()
 {
 	int *a,*b;
-	clrscr();
+	
 	for (int i=0;i<=10;i++)
 	{
 		
@@ -18,6 +18,6 @@ int main()
 	{
 		printf("%d ",b[i]);
 	}
-    getch();
+        return 0;
 	
 }
