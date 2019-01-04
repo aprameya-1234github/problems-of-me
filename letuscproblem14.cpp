@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+/*writeca program to copy the contents of one array into another in the reverse order*/
 int main()
 {
 	int *a,*b,m;
