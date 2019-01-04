@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+/*impleament insertion sort algorithm on a set of 25 numbers*/
 int main()
 {
 	int a[25],i,j,key;
