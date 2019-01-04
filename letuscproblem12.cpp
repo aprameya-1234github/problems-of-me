@@ -1,6 +1,5 @@
 #include<stdio.h>
-#define max(a,b)((a>b)?a:b);
-#define min(a,b)((a<b)?a:b);
+
 int GCD(int a,int b);
 int main()
 {
@@ -14,15 +13,6 @@ int main()
 }
 int GCD(int a,int b)
 {
-	int i,j,k;
-    while(j%k==0)
-    {
-    	j=max(a,b);
-    	k=min(a,b);
-    	i=j%k;
-    	j=max(i,k);
-    	k=min(i,k);
-	}
-	return k;
-	
+	if (b == 0) return a;
+	else return GCD(b, a%b);
 }
